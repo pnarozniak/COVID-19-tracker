@@ -1,0 +1,111 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COVID 19 TRACKER</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" type="text/css" />
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+      defer
+    ></script>
+    <script defer>
+      const currCountry = '<%-details.Country || "Global"%>';
+    </script>
+    <script src="../script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="flex-container header">
+        <img src="../images/covid.png" />
+        <h1>COVID-19 TRACKER</h1>
+      </div>
+      <div class="flex-container">
+        <select id="country-select">
+          <option>Global</option>
+          <% countries.forEach(name => { %> <% if (name === details.Country) {
+          %>
+          <option selected="selected"><%=name%></option>
+          <% } else { %>
+          <option><%=name%></option>
+          <% } %> <% }); %>
+        </select>
+      </div>
+    </header>
+    <main>
+      <section class="flex-container">
+        <div class="cards flex-container">
+          <div class="card">
+            <h3 id="status">Confirmed</h3>
+            <p class="total">Total</p>
+            <p class="value"><%= details.TotalConfirmed %></p>
+            <p class="new">New</p>
+            <p class="value"><%= details.NewConfirmed %></p>
+            <div class="line confirmed-line"></div>
+          </div>
+          <div class="card">
+            <h3 id="status">Recovered</h3>
+            <p class="total">Total</p>
+            <p class="value"><%= details.TotalRecovered %></p>
+            <p class="new">New</p>
+            <p class="value"><%= details.NewRecovered %></p>
+            <div class="line recovered-line"></div>
+          </div>
+          <div class="card">
+            <h3 id="status">Deaths</h3>
+            <p class="total">Total</p>
+            <p class="value"><%= details.TotalDeaths %></p>
+            <p class="new">New</p>
+            <p class="value"><%= details.NewDeaths %></p>
+            <div class="line deaths-line"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="chart-container">
+        <div id="chart"></div>
+        <div id="chart-loader" class="loader"></div>
+        <div id="chart-error" class="error">
+          <p>Chart statiscits are available<br />only for countries!</p>
+        </div>
+        <div id="chart-legend-container">
+          <div class="legend flex-container" id="confirmed-legend">
+            <label for="confirmed-checkbox">Confirmed</label>
+            <input
+              id="confirmed-checkbox"
+              type="checkbox"
+              checked="checked"
+              value="1"
+            />
+          </div>
+          <div class="legend flex-container" id="recovered-legend">
+            <label for="recovered-checkbox">Recovered</label>
+            <input
+              id="recovered-checkbox"
+              type="checkbox"
+              checked="checked"
+              value="2"
+            />
+          </div>
+          <div class="legend flex-container" id="deaths-legend">
+            <label for="deaths-checkbox">Deaths</label>
+            <input
+              id="deaths-checkbox"
+              type="checkbox"
+              checked="checked"
+              value="3"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer flex-container">
+      <p>LAST UPDATE <%= lastUpdate %></p>
+    </footer>
+  </body>
+</html>
