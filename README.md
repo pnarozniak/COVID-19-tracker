@@ -13,9 +13,10 @@
 
 ### Front-end
 * Fully responsive, modern and clean UI
-* Using Google charts api to display covid-19 statisctics chart
+* Using Google charts api to display covid-19 statistics on chart
 
 ## Visuals
+<img src="">
 
 ## Technologies
 > Node.js
