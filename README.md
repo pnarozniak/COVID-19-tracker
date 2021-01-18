@@ -18,6 +18,8 @@
 ## Visuals
 * Dekstop view
 <img src ="./readme-art/desktop.PNG" width="50%">
+
+* Mobile view
 <img src ="./readme-art/mobile.PNG" width="50%">
 
 
