@@ -16,7 +16,8 @@
 * Using Google charts api to display covid-19 statistics on chart
 
 ## Visuals
-<img src ="./readme-art/desktop.PNG" width="50%" title="Desktop-view">
+<img src ="./readme-art/desktop.PNG" width="50%">
+<img src ="./readme-art/mobile.PNG" width="50%">
 
 ## Technologies
 > Node.js
