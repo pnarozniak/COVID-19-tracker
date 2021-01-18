@@ -1,6 +1,5 @@
 ## Jump to section
 * [About](#about)
-* [Features](#features)
 * [Visuals](#visuals)
 * [Technologies](*technologies)
 * [Authors](#authors)
@@ -12,9 +11,9 @@
 * fully written in JavaScript in node using express.js framework
 * fetching live data from https://documenter.getpostman.com/view/10808728/SzS8rjbc
 
-* Front-end
-> Fully responsive, modern and clean UI
-> Using Google charts api to display covid-19 statisctics chart
+> Front-end
+* Fully responsive, modern and clean UI
+* Using Google charts api to display covid-19 statisctics chart
 
 ## Visuals
 
