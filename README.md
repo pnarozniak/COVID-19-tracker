@@ -17,10 +17,10 @@
 
 ## Visuals
 * Dekstop view
-<img src ="./readme-art/desktop.PNG" width="30%">
+<img src ="./readme-art/desktop.PNG" width="40%">
 
 * Mobile view
-<img src ="./readme-art/mobile.PNG" width="30%">
+<img src ="./readme-art/mobile.PNG" width="40%" height="800">
 
 ## Technologies
 * JavaScript
@@ -28,4 +28,4 @@
 * Express.js
 
 ## Authors
-> xlegodroit
+* xlegodroit
