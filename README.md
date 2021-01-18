@@ -18,11 +18,7 @@
 ## Visuals
 * Dekstop view
 <img src ="./readme-art/desktop.PNG" width="40%">
-
-* Mobile view
-<div max-width="800" overflow="hidden">
-  <img src ="./readme-art/mobile.PNG" width="40%">
-</div>  
+<img src ="./readme-art/mobile.PNG" width="40%" height="1200">
 
 
 ## Technologies
