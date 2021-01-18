@@ -20,7 +20,10 @@
 <img src ="./readme-art/desktop.PNG" width="40%">
 
 * Mobile view
-<img src ="./readme-art/mobile.PNG" width="40%" height="800">
+<div max-width="800" overflow="hidden">
+  <img src ="./readme-art/mobile.PNG" width="40%">
+</div>  
+
 
 ## Technologies
 * JavaScript
