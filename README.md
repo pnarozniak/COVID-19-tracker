@@ -9,7 +9,7 @@
 
 ### Back-end
 * fully written in JavaScript in node using express.js framework
-* fetching live data from https://documenter.getpostman.com/view/10808728/SzS8rjbc
+* fetching live data from https://documenter.getpostman.com/view/10808728/SzS8rjbc api
 
 ### Front-end
 * Fully responsive, modern and clean UI
