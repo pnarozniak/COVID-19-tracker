@@ -1,7 +1,7 @@
 ## Jump to section
 * [About](#about)
 * [Visuals](#visuals)
-* [Technologies](*technologies)
+* [Technologies](#Technologies)
 * [Authors](#authors)
 
 ## About
