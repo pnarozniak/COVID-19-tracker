@@ -7,7 +7,12 @@
 
 ## About
 > COVID-19-tracker is a full stack aplication allowing users to check live covid statistics all around the world.
+
+* Back-end
 >  written in JavaScript in node using express.js framework.
+
+* Front-end
+> tmp
 
 ## Features
 > empty
